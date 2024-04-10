@@ -1,0 +1,17 @@
+.calculator {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 10px;
+}

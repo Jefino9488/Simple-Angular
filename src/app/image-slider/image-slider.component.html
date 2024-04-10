@@ -1,0 +1,11 @@
+<div class="slider-container">
+    <div class="slider">
+        <img *ngFor="let image of images; let i = index"
+             [src]="image.src"
+             [alt]="image.alt"
+             [style.display]="i === currentIndex ? 'block' : 'none'"
+        />
+    </div>
+    <button class="prev" (click)="prevSlide()">&#10094;</button>
+    <button class="next" (click)="nextSlide()">&#10095;</button>
+</div>

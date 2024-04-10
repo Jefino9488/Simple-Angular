@@ -1,0 +1,36 @@
+.auth-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.switch-form {
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}

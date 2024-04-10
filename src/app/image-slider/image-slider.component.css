@@ -1,0 +1,63 @@
+.slider-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+.slider-container {
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.slider-image {
+    width: 50%; /* Set width to 100% to fill the slider container */
+    height: 50%; /* Maintain aspect ratio */
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

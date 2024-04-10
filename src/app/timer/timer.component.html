@@ -1,0 +1,11 @@
+<div class="timer">
+    <h2>Timer</h2>
+    <div>
+        <button (click)="start()" [disabled]="isRunning">Start</button>
+        <button (click)="stop()" [disabled]="!isRunning">Stop</button>
+        <button (click)="reset()">Reset</button>
+    </div>
+    <div class="elapsed-time">
+        Elapsed Time: {{ elapsedTime | number: '1.0-2' }} seconds
+    </div>
+</div>

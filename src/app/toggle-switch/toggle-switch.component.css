@@ -1,0 +1,15 @@
+.toggle-switch {
+    text-align: center;
+}
+
+.toggle-switch button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.toggle-switch p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
